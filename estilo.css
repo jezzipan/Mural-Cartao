@@ -28,6 +28,7 @@
     flex-wrap: wrap;
 }
 
+
 @media (min-width: 590px) {
     .cartao {
         width: 190px;
@@ -36,4 +37,14 @@
         flex-basis: 198px;
         flex-grow: 1;
     }
+}
+
+.mural--linha .cartao {
+    display: block;
+    width: auto;
+    flex-basis: auto;
+}
+
+.mural--linha {
+    flex-direction: column;
 }
