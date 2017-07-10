@@ -33,3 +33,9 @@
     flex-wrap: wrap;
 }
 
+@media (min-width: 590px) {
+    .cartao {
+        width: 190px;
+        display: inline-block;
+    }
+}
