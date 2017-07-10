@@ -1,5 +1,3 @@
 function mudaLayout(){
-    document.querySelector('#mudaLayout').textContent='bloco'
-    document.querySelector('.mural').style.flexDirection= 'column'
-
+    document.querySelector('.mural').classList.add('mural--linha')
 }
