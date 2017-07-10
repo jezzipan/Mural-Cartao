@@ -14,12 +14,9 @@
     padding: 16px;
     margin: 16px;
     display: inline-block;
-    width: 190px;
     box-sizing: border-box;
-    vertical-align: top;
     text-align: left;
-    flex-basis: 198px;
-    flex-grow: 1;
+    
    
 }
 
@@ -37,5 +34,8 @@
     .cartao {
         width: 190px;
         display: inline-block;
+        vertical-align: top;
+        flex-basis: 198px;
+        flex-grow: 1;
     }
 }
