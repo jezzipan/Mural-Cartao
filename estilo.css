@@ -28,10 +28,6 @@
     flex-wrap: wrap;
 }
 
-.mural {
-    flex-direction: column;
-}
-
 @media (min-width: 590px) {
     .cartao {
         width: 190px;
