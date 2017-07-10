@@ -13,9 +13,21 @@
     background: yellow;
     padding: 16px;
     margin: 16px;
+    display: inline-block;
+    width: 190px;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: left;
+   
 }
 
 .container {
     padding: 0 10%;
-
 }
+
+.mural {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
