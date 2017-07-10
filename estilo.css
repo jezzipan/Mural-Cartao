@@ -15,9 +15,7 @@
     margin: 16px;
     display: inline-block;
     box-sizing: border-box;
-    text-align: left;
-    
-   
+    text-align: left;  
 }
 
 .container {
@@ -28,6 +26,10 @@
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+}
+
+.mural {
+    flex-direction: column;
 }
 
 @media (min-width: 590px) {
