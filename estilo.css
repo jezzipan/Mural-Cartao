@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+   background: #3b89da;
+   padding: 16px;;
+} 
+
+.cartao {
+    border: 1px solid yellowgreen;
+    background: yellow;
+    padding: 16px;
+    margin: 16px;
+}
