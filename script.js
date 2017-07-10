@@ -2,9 +2,9 @@
 var mural = document.querySelector('.mural')
 var btn = document.querySelector('#mudaLayout')
 function mudaLayout() {
-    if (mural.classList.contains('mural--linha')) {
+    //toogle: add se nao tive class e se tiver// 
+    if (mural.classList.toggle('mural--linha')) {
         btn.textContent="Linha"
-        mural.classList.remove('mural--linha')
     } else {
         mural.classList.add('mural--linha')
         btn.textContent="Bloco"
