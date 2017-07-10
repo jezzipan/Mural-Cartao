@@ -18,6 +18,8 @@
     box-sizing: border-box;
     vertical-align: top;
     text-align: left;
+    flex-basis: 198px;
+    flex-grow: 1;
    
 }
 
