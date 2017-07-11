@@ -11,7 +11,7 @@ function mudaLayout() {
     }
 }
 
- btn = document.querySelector('#btnRemove')
+ btns = document.querySelectorAll('.btnRemove')
 
  btn.addEventListener('click', removeCartao)
  function removeCartao() {
