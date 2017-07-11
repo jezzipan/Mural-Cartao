@@ -20,6 +20,11 @@ function removeCartao() {
     //Uma classe que faz ele sumir lentamente//
     cartao.cartaoAtual.add('cartao--some');
 
+    //Tira page após animacao//
+    setTimeout(function(){
+        cartaoAtual.remove();
+    },400);
+
 
     console.log(cartaoAtual)
     cartaoAtual.classList.add('cartao--some')
