@@ -11,10 +11,11 @@ function mudaLayout() {
     }
 }
 
- btns = document.querySelectorAll('.btnRemove')
-
- btn.addEventListener('click', removeCartao)
+ var btns = document.querySelectorAll('.btnRemove')
+    for(var i= 0; i < btns.length; i++) {
+        btns[i].addEventListener('click', removeCartao)
+    }
  function removeCartao() {
-    document.querySelector('.cartao').classList.add('cartao--some')
+    console.log(this.parentNode)
 }
 
