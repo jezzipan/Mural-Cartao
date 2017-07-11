@@ -51,3 +51,9 @@
 .mural--linha {
     flex-direction: column;
 }
+
+.cartao--some {
+    display: none !important;
+    opacity: 0;
+    transition: .2s ease-in;
+}
