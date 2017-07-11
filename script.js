@@ -15,7 +15,14 @@ function mudaLayout() {
     for(var i= 0; i < btns.length; i++) {
         btns[i].addEventListener('click', removeCartao)
     }
- function removeCartao() {
-    console.log(this.parentNode)
+function removeCartao() {
+    var cartaoAtual= document.querySelector('#cartao_'+this.dataset.ref);
+    //Uma classe que faz ele sumir lentamente//
+    cartao.cartaoAtual.add('cartao--some');
+
+
+    console.log(cartaoAtual)
+    cartaoAtual.classList.add('cartao--some')
+
 }
 
