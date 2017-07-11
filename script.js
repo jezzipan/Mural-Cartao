@@ -19,7 +19,7 @@ function removeCartao() {
     //Tira page após animacao//
     setTimeout(function(){
         cartao.remove();
-    },400);
+    },4400);
 
 }
 //pegar os botoes//
