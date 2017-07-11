@@ -7,6 +7,9 @@
    background: #3b89da;
    padding: 16px;;
 } 
+.botao-remove {
+    display: none;
+}
 
 .cartao {
     border: 1px solid yellowgreen;
