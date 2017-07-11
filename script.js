@@ -15,6 +15,6 @@ function mudaLayout() {
 
  btn.addEventListener('click', removeCartao)
  function removeCartao() {
-    document.querySelector('.cartao').classList.add('.cartao--some')
+    document.querySelector('.cartao').classList.add('cartao--some')
 }
 
