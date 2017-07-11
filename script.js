@@ -10,3 +10,11 @@ function mudaLayout() {
         btn.textContent="Bloco"
     }
 }
+
+ btn = document.querySelector('#btnRemove')
+
+ btn.addEventListener('click', removeCartao)
+ function removeCartao() {
+    document.querySelector('.cartao').classList.add('.cartao--some')
+}
+
