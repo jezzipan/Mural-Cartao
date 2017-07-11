@@ -10,25 +10,23 @@ function mudaLayout() {
         btn.textContent="Bloco"
     }
 }
-
- var btns = document.querySelectorAll('.btnRemove')
-    for(var i= 0; i < btns.length; i++) {
-        btns[i].addEventListener('click', removeCartao)
-    }
 function removeCartao() {
-    var cartaoAtual= document.querySelector('#cartao_'+this.dataset.ref);
+    var cartao= document.querySelector('#cartao_'+this.dataset.ref);
+    console.log(this.dataset.ref)
     //Uma classe que faz ele sumir lentamente//
-    cartao.cartaoAtual.add('cartao--some');
+        cartao.classList.add('cartao--some');
 
     //Tira page após animacao//
     setTimeout(function(){
-        cartaoAtual.remove();
+        cartao.remove();
     },400);
 
 }
 //pegar os botoes//
-var botoes= document.querySelectorAll('.opcoesDoCartao-remove');
+var botoes= document.querySelectorAll('.btnRemove');
     for (var i=0;i < botoes.length; i++) {
-        
+        //add o evento em cada botao//
+        botoes[i].addEventListener('click', removeCartao);
     }
+
 
