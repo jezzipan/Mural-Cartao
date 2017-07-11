@@ -25,9 +25,10 @@ function removeCartao() {
         cartaoAtual.remove();
     },400);
 
-
-    console.log(cartaoAtual)
-    cartaoAtual.classList.add('cartao--some')
-
 }
+//pegar os botoes//
+var botoes= document.querySelectorAll('.opcoesDoCartao-remove');
+    for (var i=0;i < botoes.length; i++) {
+        
+    }
 
